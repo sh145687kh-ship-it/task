@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 60px;
+}
+header{
+    position: sticky;
+    padding-top:20px ;
+
+}
+h1,h2,h3,h3,h4,h5,h6{
+     font-family: "Sirin Stencil", sans-serif;
+}
+header .link{
+    width: 100%;
+    position: relative;
+}
+
+header .link nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+     background-color: rgb(37, 125, 198);
+}
+header .link nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header .link nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+header .link nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-shadow:2px 3px 1px black;
+}
+header .link nav ul li a:hover{
+    color:rgb(91, 55, 11);
+    text-shadow: 3px 4px 1px #fff;
+}
+header .link nav ul li i{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 1000;
+}
+.container{
+    text-align: center;
+    background-color: rgb(90, 103, 131);
+    height: 600px;
+}
+.container h1{
+    margin-bottom:50px;
+    background-color: #fff;
+    padding-bottom: 5px;
+    text-shadow: 2px 3px 1px black;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 100%;
+}
+.container .section{
+    height: 300px;
+    display:flex;
+    justify-content: center;
+}
+.section ul{
+    display: flex;
+}
+.container .section ul li{
+    list-style: none;
+    margin: auto;
+}
+.container .coursera img:hover{
+    width: 300px;
+    transition-duration: 0.5s;
+}
+.container .section ul li img:hover{
+    width: 300px;
+    transition-duration: 0.5s;
+}
+.container .section ul li h2:hover{
+    color: rgb(57, 93, 116);
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+.table{
+    background-color: rgb(90, 103, 131);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.table h1{
+    margin-bottom:5% ;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+table{
+    width: 100%;
+}
+table tr th,
+table tr td{
+    width: 100px;
+    border: 2px solid rgb(20, 20, 19);
+}
+table tr td{
+    color: #fff;
+    padding-bottom: 40px;
+}
+table tr td img{
+    width:100%;
+}
+.addcourse{
+    background-color:rgb(31, 107, 169);
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+.addcourse .form{
+    background-color:  rgb(96, 57, 26);
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 1px black;
+}
+.addcourse .note form{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+.addcourse .form h2{
+    margin-bottom: 20px;
+}
+.addcourse h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: black;
+    margin-top: 30px;
+}
+.contact form input:hover{
+    background-color: rgb(86, 79, 79);
+}
+button{
+    background-color: beige;
+    color: black;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+    padding: 10px;
+    width:10%;
+
+}
+button:hover{
+    background-color: seagreen;
+    color: #fff;
+}
+.note form {
+    margin-top: 40px;
+    background-color:  rgb(96, 57, 26) ;
+    padding-top: 40px;
+    box-shadow: 4px 1px black;
+}
+textarea{
+    width: 50%;
+    padding-bottom: 20%;
+    border: 3px solid seagreen;
+    border-radius: 10px;
+}
+.contactus{
+    text-align: center;
+    color: #fff;
+}
+.contactus h1{
+    color: black;
+}
+.contactus .big{
+    width:100%;
+    background-color:rgb(31, 107, 169);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact{
+    width: 50%;
+    background-color: rgb(96, 57, 26);
+    display: block;
+    text-align: center;
+    padding-top:40px ;
+    padding-bottom: 40px;
+    margin-left:25%;
+    margin-right:48%;
+    border-radius: 30px;
+    box-shadow: 4px 1px black;
+}
+input{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(37, 125, 198) ;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer div{
+    margin: 10px;
+}
+footer>p{
+    margin: 10px;
+}
+footer .tel{
+    width: 10%;
+    height: 5%;
+    border: 2px 3px black solid;
+    border-radius: 5px;
+}
+footer .whats{
+    width: 10%;
+    height: 5%;
+    border: 2px 3px solid black;
+    border-radius: 5px;
+}
+footer .face{
+    width: 10%;
+    height: 5%;
+    border: 2px 3px solid black;
+    border-radius:5px ;
+}
+@media (max-width:600px) {
+    header .link nav{
+        width: 100%;
+        height: 10%;
+    }
+    header .link nav ul li a{
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    .section ul li img{
+        width:50px;
+    }
+    .section ul li img:hover{
+        width: 100px;
+    }
+    .contact{
+        width: 60%;
+    }
+    .contact form button{
+        width: 30%;
+    }
+    button{
+        width: 20%;
+    }
+    footer{
+        width: 100%;
+        display: block;
+    }
+}
